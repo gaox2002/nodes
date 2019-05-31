@@ -1,0 +1,33 @@
+{
+  "name": "nodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "koa",
+    "api",
+    "mongo"
+  ],
+  "author": "Xiang Gao",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.5.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.5.7",
+    "pino": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "pino-pretty": "^3.0.0"
+  }
+}
