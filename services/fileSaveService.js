@@ -16,7 +16,6 @@ const storeMeta = async (user, filename) => {
   });
 
   await photo.save();
-  console.log(`save photo ${photo.imageName}`);
 
   return photo;
 }
